@@ -17,7 +17,6 @@ import util.OkHttpClientUtil;
 public class TestAcitivity extends BaseAcitivity {
     @Bind(R.id.btn_butterknife)
     protected Button buttonknife;
-    int i=0;
     @Override
     protected int setContentId() {
         return R.layout.test_layout;
