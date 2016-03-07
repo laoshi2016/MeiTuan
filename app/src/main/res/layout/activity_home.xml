@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fl_home"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+        android:id="@+id/rg_home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/rb_deal"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector_deal"
+            android:text="首页"
+            android:textColor="@color/selector_hometabcolor"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/rb_poi"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector_poi"
+            android:text="商家"
+            android:textColor="@color/selector_hometabcolor"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/rb_user"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector_user"
+            android:text="我的"
+            android:textColor="@color/selector_hometabcolor"
+            android:gravity="center"
+            />
+        <RadioButton
+            android:id="@+id/rb_more"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/selector_more"
+            android:text="更多"
+            android:textColor="@color/selector_hometabcolor"
+            android:gravity="center"
+            />
+
+    </RadioGroup>
+
+
+
+
+</LinearLayout>
